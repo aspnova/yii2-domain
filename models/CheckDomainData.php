@@ -1,16 +1,12 @@
 <?php
 
-namespace aspn\domain\models;
+namespace aspnova\domain\models;
 
-use app\modules\blockdescr\models\BlockDescr;
-use app\modules\image\models\ImgLinks;
-use app\modules\product\models\Product;
-use app\modules\varentity\models\Conditions;
-use app\modules\varentity\models\Varentity;
+
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\domain\models\Domain;
+
 use yii\data\ArrayDataProvider;
 
 /**

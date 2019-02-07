@@ -1,6 +1,6 @@
 <?php
 
-namespace aspn\domain\models;
+namespace aspnova\domain\models;
 
 
 use Yii;

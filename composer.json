@@ -1,7 +1,7 @@
 {
-    "name": "aspn/domain",
+    "name": "aspnova/yii2-domain",
     "description": "domain ext",
-    "type": "yii2-extension",
+    "type": "library",
     "keywords": ["yii2","extension"],
     "license": "Apache-2.0",
     "authors": [
@@ -16,7 +16,16 @@
     "repositories": [
         {
             "type": "git",
-            "url":  "git@gitlab.aim:o.trushkov/aspn-domain.git"
+            "url":  "https://github.com/aspnova/yii2-domain"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "aspnova\\domain": "vendor/aspnova/domain/"
+        }
+    },
+    "extra": {
+        "bootstrap": "aspnova\\domain\\Bootstrap"
+    }
+
 }
