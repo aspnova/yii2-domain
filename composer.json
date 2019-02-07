@@ -1,0 +1,22 @@
+{
+    "name": "aspn/domain",
+    "description": "domain ext",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "heltru",
+            "email": "test@test.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "git@gitlab.aim:o.trushkov/aspn-domain.git"
+        }
+    ]
+}
