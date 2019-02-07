@@ -1,6 +1,6 @@
-novaroute
+yii2-domain
 =========
-novaroute
+yii2-domain
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist aspn/domain "*"
+php composer.phar require --prefer-dist aspnova/yii2-domain "*"
 ```
 
 or add
 
 ```
-"aspn/domain": "*"
+"aspnova/domain": "*"
 ```
 
 to the require section of your `composer.json` file.
